@@ -9,3 +9,8 @@ void input()
     cout << "Masukan Bilangan Kedua = ";
     cin >> bil2;
 }
+
+float penjumblahan(float a,float b)
+{
+    return a + b;
+}

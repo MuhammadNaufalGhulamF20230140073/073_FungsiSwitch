@@ -29,3 +29,24 @@ float perkalian(float a,float b)
 {
     return a * b;
 }
+
+
+int main()
+{
+    int pilihan;
+
+    do
+    {
+        cout << "===============================" << endl;
+        cout << "MENU" << endl;
+        cout << "1.Penjumlahan " << endl;
+        cout << "2.Pmbagian " << endl;
+        cout << "3.Pengurangan " << endl;
+        cout << "4.Perkalian " << endl;
+        cout << "5.Exit" << endl;
+        cout << "Masukkan pilihan 1/2/3/4/5 = ";
+        cin >> pilihan;     
+    } while (pilihan !=5);
+    
+}
+
